@@ -29,3 +29,26 @@
 <pre><code>npm start
 </code></pre>
 <p>The server will run on port 3000 by default.</p>
+
+<h3 id="access-the-todo-api-endpoints">Access the Todo API Endpoints:</h3>
+<p>You can now access the Todo API endpoints using tools like Postman or curl, or by making HTTP requests from your applications.</p>
+<ul>
+<li><h4 id="create-a-todo">Create a Todo:</h4>
+</li>
+</ul>
+<p>Make a POST request to /posttodo with a JSON body containing a &quot;todo&quot; property to create a new Todo item.</p>
+<ul>
+<li><h4 id="update-a-todo">Update a Todo:</h4>
+</li>
+</ul>
+<p>Make a PUT request to /updatetodo/:id with a JSON body containing an updated &quot;todo&quot; property to update an existing Todo item. Replace :id with the ID of the Todo item you want to update.</p>
+<ul>
+<li><h4 id="delete-a-todo">Delete a Todo:</h4>
+</li>
+</ul>
+<p>Make a DELETE request to /deletetodo/:id to delete an existing Todo item. Replace :id with the ID of the Todo item you want to delete.</p>
+<ul>
+<li><h4 id="retrieve-all-todos">Retrieve all Todos:</h4>
+</li>
+</ul>
+<p>Make a GET request to /gettodo to retrieve all Todo items.</p>
