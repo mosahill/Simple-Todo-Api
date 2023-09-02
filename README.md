@@ -14,9 +14,10 @@
 <pre><code class="language-sh">cd Simple-Todo-Api
 </code></pre>
 <h4 id="install-dependencies">Install Dependencies:</h4>
-<p>Install the project dependencies using npm (Node Package Manager):</p>
-<pre><code class="language-sh">npm i express
+<p>Install the project dependencies using npm:</p>
+<pre><code class="language-sh">npm install express mongoose
 </code></pre>
+<p>This will add the <strong>express</strong> and <strong>mongoose</strong> packages to your project and update the dependencies section of your <strong>package.json</strong> file.</p>
 <h4 id="create-a-env-file">Create a .env File:</h4>
 <p>Create a .env file in the project&#39;s root directory and add your MongoDB connection string. Replace YOUR_MONGODB_URI with your actual MongoDB connection string:</p>
 <pre><code class="language-sh">DATABASE_URL=YOUR_MONGODB_URI
